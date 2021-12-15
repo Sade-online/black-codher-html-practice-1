@@ -1,21 +1,37 @@
-h1, h2 {
+h1, h2, li, form, p {
     font-family: 'Urbanist', sans-serif;
 }
 
-p{
-    font-family: 'Urbanist', sans-serif;
+/* mobile */
+
+@media only screen and (max-width: 600px){
+
+h1, h2, h3, h4, h5 {
+    font-size: 20px;
+}
+
+body{
+    background-color: #3D3B8E;
+    font-size: 14px;
+    color: #FFF;
+}
+
+}
+
+/* tablet, laptop & desktop */
+
+@media only screen and (min-width: 601px){
+
+h1, h2, h3, h4, h5 {
+    font-size: 50px;
+}
+
+body{
+    font-size: 26px;
+    background-color: #B0E298;
+    color: #000;
+}
+
 }
 
 
-/* 'color: grey;'>
-
-'font-size: 8px; font-style: italic; color:green;'>
-
-'color: orange; text-align: center; font-weight: bold;'>
-
-'text-justify: auto; color: pink; font-family: tahoma;'>
-
-'text-decoration: underline; color: purple; font-family: Roboto, Helvetica, sans-serif;'>
-
-'background-color: yellow; font-weight: bold; line-height: 25px; font-family: "Comic Sans MS", "Comic Sans", cursive;'>
- */
