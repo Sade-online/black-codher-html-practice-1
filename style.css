@@ -32,10 +32,20 @@ body{
     color: #000;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* potentially redundanct css
 div_1, div_2, div_3, div_form{
     padding: 1px;
     margin: 3px;
 }
+*/
 
 }
 
