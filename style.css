@@ -32,6 +32,11 @@ body{
     color: #000;
 }
 
+div_1, div_2, div_3, div_form{
+    padding: 1px;
+    margin: 3px;
+}
+
 }
 
 
